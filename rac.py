@@ -79,6 +79,7 @@ try:
 
 except Exception as RapError:
     print(f'        {Rac} Rap > 0 RAP Or User Invetory Is Closed')
+    
 if banstatus == False:
     print(f'        {Rac} Banned > No')
 

@@ -70,7 +70,7 @@ for _i in range(0, size):
     pp += "="
 
 
-print(f'        {Rac} Username > ' + info2['name'])
+print(f'       {white} {Rac} Username > ' + info2['name'])
 print(f'        {Rac} ID > {getid}')
 print(f'        {Rac} Display_Name > ' + info2['displayName'])
 
@@ -79,7 +79,6 @@ try:
 
 except Exception as RapError:
     print(f'        {Rac} Rap > 0 RAP Or User Invetory Is Closed')
-    
 if banstatus == False:
     print(f'        {Rac} Banned > No')
 
@@ -109,8 +108,8 @@ print('\n')
 
 
 
-print(f'        {Rac} This Program Will Re-Run In 4 Seconds.')
+print(f'        {Rac} This Program Will Re-Run In 10 Seconds.')
 
-time.sleep(4)
+time.sleep(10)
 subprocess.Popen("cls",shell=True).communicate()
 os.system("python rac.py")
